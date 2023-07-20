@@ -1,0 +1,88 @@
+body{ 
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin:20;
+    background-image:url("https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg");
+    background-blend-mode:multiply;
+    background-color: rgba(100, 149, 237, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  p,h1{
+    color: rgba(232, 241, 242);
+    text-align: center;
+  }
+  p:first-of-type{
+    font-style:italic;
+  }
+  
+  #name,#email,#number{
+    color: white;
+    margin-top: 5px;
+    padding: 10px;
+    background-color:rgba(19, 41, 61,80%) ;
+  }
+  
+  .checkboxes{
+    color: white;
+    width: 100%;
+    padding: 5px;
+     background-color: rgba(19, 41, 61,80%);  
+  }
+  
+  form{
+    margin: 0 10vw;
+    background-color: rgba(19, 41, 61,80%);
+    padding: 10px;
+    max-width: 100%;
+    min-width: 300px;
+  }
+  
+  input{
+    width: 100%;
+  }
+  
+  fieldset{
+    border: none;
+    border-bottom: 2px solid rgb(30, 98, 143) ;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  label{
+   
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #comment{
+    background-color:rgba(19, 41, 61,80%) ;
+    width: 70%;
+    margin-left:15%;
+    margin-right:15%;
+    margin-bottom:16px;
+    color: white;
+    padding:50px;
+  }
+  
+  #submit{
+    background-color: rgb(27, 152, 224);
+    width: 75%;
+    margin-left:12.5%;
+    margin-right:12.5%;
+    padding: 10px
+  }
+  
+  input[type="radio"]{
+    width: unset;
+  }
+  input[type="checkbox"]{
+    margin-right: 10px;
+    width: unset;
+  }
+  input[type="option"]{
+    width: 100%;
+  }
