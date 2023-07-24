@@ -7,7 +7,7 @@ Hello there! Thank you for visiting my GitHub profile Here's a Little about myse
 
 ### About Me
 
-I am a passionate and dedicated full-stack developer with junior knowledge and strong interest in web development, I have actively pursued opportunities to expand my knowledge and skills in Javascript, HTML CSS and React  I like challenges and enjoy collaborating with others
+I am a passionate and dedicated front-end developer with  knowledge and a strong interest in web development, I have actively pursued opportunities to expand my knowledge and skills in Javascript, HTML CSS, and React  I like challenges and enjoy collaborating with others
 
 ### GitHub Projects
 
