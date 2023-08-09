@@ -1,0 +1,39 @@
+body{
+  background-color:rgba(18, 31, 60, 1);
+}
+
+.App{
+padding: 0;
+margin: 0;
+}
+
+.custom-text-title{
+  
+  font-family: Calistoga;
+}
+
+.image-container{
+ display: flex;
+flex-wrap: wrap; 
+justify-content: space-evenly  ;
+
+}
+
+.image-container  {
+  width: 100vw; 
+  margin: 10px;
+  padding: 0px;
+}
+.blue-icon {
+  color: rgb(0, 112, 250);
+}
+.card-content{
+  background-color: rgb(213, 229, 246);
+  opacity: 0.9;
+}
+
+#likes{
+  font-size: small;
+}
+
+
