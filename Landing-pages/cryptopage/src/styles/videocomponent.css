@@ -1,0 +1,48 @@
+
+.video-component{
+    
+    width:415px
+}
+
+.video-section {
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    width: 540px;
+    height: 673px;
+    
+
+}
+
+.play-pause-btn {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: rgba(233, 66, 58, 0.4);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.play-pause-btn.playing::before {
+    content: '▶';
+}
+
+.play-pause-btn.paused::before {
+    content: '⏸';
+}
+
+video {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+  }

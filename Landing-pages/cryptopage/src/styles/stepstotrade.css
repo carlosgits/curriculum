@@ -1,0 +1,59 @@
+
+.stepsToTrade{
+    display: inline-block;
+    margin-right: auto;
+}
+.oval-container{
+    border: 0.5px solid rgba(233, 66, 58, 1);
+    width:284;
+    height: 66px;
+    border-radius: 66px ;
+    margin: 5px;
+    
+}
+.oval-container:hover{
+    border: 1px solid rgba(233, 66, 58, 1);
+    width:284;
+    height: 66px;
+    box-shadow: 0px 0px 10px 2px rgba(233, 66, 58, 1);
+    border-radius: 66px ;
+    margin: 5px;
+    
+}
+
+.container{
+    margin-top: 85px;
+    margin-bottom: auto;
+    width: 285px;
+    height: 336px;
+}
+
+.tittle{
+    font-size: 36px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    color:  rgba(233, 66, 58, 1);;
+}
+
+.circle{
+ 
+ display: inline-block;
+   
+    font-size: 16px;
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    
+    margin: 10px;
+    background-color: rgba(233, 66, 58, 1);
+    padding-top: 7px;
+}
+
+
+.text-content{
+    display: inline;
+    margin-left: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    color: rgba(233, 66, 58, 1);
+}

@@ -1,0 +1,17 @@
+
+.card-container{
+    display:flex;
+    gap: 31px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container:first-child{
+margin-left: auto;
+}
+
+
+.card-container:last-child{
+    margin-right: auto;
+    }
+    

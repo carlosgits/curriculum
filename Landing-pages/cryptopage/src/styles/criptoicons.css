@@ -1,0 +1,19 @@
+
+.payment-methods{
+    width: 430px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon{
+    margin-right:5px;
+}
+
+.icon-cont{
+    margin-right: 20px;
+}
+
+.icon-cont:hover{
+  width: 80px;
+  height: 80px;
+}

@@ -1,0 +1,25 @@
+ 
+.section3{
+width: 1440px ;
+height: 110px;
+
+}
+
+.title-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 920px;
+    height: 124px ;
+   
+ }
+
+ .title-s3{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    
+ }
+
+ .title-subject{
+    color:rgb(84, 80, 80);
+ }
