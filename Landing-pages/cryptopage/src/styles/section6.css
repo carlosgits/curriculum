@@ -1,0 +1,21 @@
+
+.section6{
+    width:1400px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.title-container-s6 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 920px;
+    height: 124px;
+}
+
+.title-s6{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
