@@ -5,6 +5,8 @@ import Section3 from "../Section/section3";
 import Section4 from "../Section/section4";
 import Section5 from "../Section/section5";
 import Section6 from "../Section/section6";
+import Section7 from "../Section/section7";
+import FooterSection from "../Section/footerSection";
 
 
 
@@ -20,6 +22,8 @@ const MainComponent = () => {
             <Section4/>
             <Section5/>
             <Section6/>
+            <Section7/>
+            <FooterSection/>
         </main>
     )
 

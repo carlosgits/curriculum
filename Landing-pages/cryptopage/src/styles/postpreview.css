@@ -1,0 +1,44 @@
+
+.postPrevContainer{
+    display: flex;
+    width: 540px;
+    height: 160px;
+    
+    padding: 0px;
+}
+
+.post-photo-container{
+    width: 160px;
+    height: 160px;
+    
+    margin: 0px;
+}
+.postTitle{
+    font-size: 24px;
+    font-family: 'Rubik';
+    color: white;
+    font-weight: 400px;
+}
+
+.postPrevTxt{
+    color: #8a7f7f;
+}
+
+.postInfo{
+    width:350px;
+    height: 160px;
+    
+    margin-left: 20px;
+}
+
+.learnmore{
+    color: rgb(239, 68, 59);
+    text-decoration: none;
+    display: block;
+    font-family: 'Rubik';
+    font-size: 18px;
+}
+
+.learnmore:hover{
+cursor: pointer;
+}

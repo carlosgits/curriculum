@@ -19,3 +19,13 @@
     font-weight: 700;
     font-family: 'Rubik', sans-serif;
 }
+
+.comments-container{
+    width: 1098px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 20px;
+        margin-left: auto;
+        margin-right: auto;
+}

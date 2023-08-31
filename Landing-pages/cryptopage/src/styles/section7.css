@@ -1,0 +1,40 @@
+
+.section-7{
+    width: 1400px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+.container-7 {  
+  margin-left: 130px;
+    height: 400px;
+  margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+  }
+  .title-s7{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+
+.enrollCont{
+  margin-left: 40%;
+}
+
+.enrollUniversity{
+  color: white;
+text-decoration: none;
+width: 280px;
+height: 55px;
+border: 2px solid rgb(239, 68, 59);
+padding: 10px 20px;
+border-radius: 40px;
+
+}
+
