@@ -1,6 +1,10 @@
-.section4 {
+.section-4 {
+    display: block;
     width: 1440px;
-    height: 900px;
+    height: auto;
+    margin-bottom: 300px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -25,8 +29,7 @@
 
 .col {
     width: 350px;
-    height: 194px;
-  
+    height: auto;
     margin-right: 5px;
     margin-bottom: 10px;
 }
@@ -49,7 +52,7 @@
 .g-title {
     margin-top: 10px;
     width: 100%;
-    height: 88px;
+    height: auto;
     
 }
 
@@ -57,7 +60,7 @@
 
     margin-top: 5px;
     width: 100%;
-    height: 84px;
+    height: auto;
    
 }
 

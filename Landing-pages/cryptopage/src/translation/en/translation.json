@@ -1,0 +1,120 @@
+{
+  
+    "navBar": {
+      "title": "Krypto",
+      "howItWorks": "HOW IT WORKS",
+      "pricing": "CRYPTOS",
+      "contact": "TESTIMONIAL",
+      "login": "FEATURES",
+      "signUp": "UNIVERSITY"
+    },
+  
+  
+    "section1": {
+      "title": "Next Generation Crypto Trading",
+      "subtitle": "Crypto Market Starts in",
+      "downloadApp": "DOWNLOAD APP",
+      "tradeCrypto": "TRADE CRYPTO",
+      "accept": "WE ACCEPT"
+    },
+    "section2": {
+      "title": "How to Trade With Krypto",
+      "subtitle": "Always conduct your own research before making any investment decisions."
+    },
+    "section3": {
+      "title": "Available Cryptos",
+      "subtitle": "Cryptocurrency investments are subject to market risks."
+    },
+    "section4": {
+      "title": "Attractive Features",
+      "subtitle": "Cryptocurrency investments are subject to market risks",
+      "features": [
+        {
+          "title": "Weekly Trading Contest",
+          "content": "Dive into the world of crypto trading with our exhilarating Weekly Trading Contest. Whether you're a seasoned crypto pro or taking your first steps in the world of digital assets."
+        },
+        {
+          "title": "Less Commission On Trade",
+          "content": "Say goodbye to high fees and welcome a more cost-effective trading experience with our new 'Less Commission On Trade' initiative."
+        },
+        {
+          "title": "Safe And Secure Trading platform",
+          "content": "Welcome to our Safe and Secure Trading Platform, where your peace of mind is our top priority. We understand that security is paramount."
+        },
+        {
+          "title": "Instant Withdraw Process",
+          "content": "Introducing our Instant Withdrawal Process  your key to swift access to your funds. We understand that timely access to your earnings is essential."
+        },
+        {
+          "title": "Monthly Commission",
+          "content": "We've introduced our Monthly Commission system  straightforward and transparent. We believe in keeping things simple."
+        },
+        {
+          "title": "24/7 Support Team",
+          "content": "We understand that questions can arise at any moment, which is why our dedicated support team is available around the clock to address your inquiries."
+        }
+      ]
+    },
+    "section5": {
+      "title": "Most advanced crypto trading platform ever!",
+      "appstore": "Download on the App Store",
+      "playstore": "Download on the Play Store"
+    },
+    "section6": {
+      "title": "30 Million Users Worldwide",
+      "subtitle": "Cryptocurrency investments are subject to market risks"
+    },
+    "section7": {
+      "title": "30 Million Users Worldwide",
+      "subtitle": "Cryptocurrency investments are subject to market risks",
+      "enrollButton": "Enroll crypto University"
+    },
+    
+      "footer": {
+        "kriptoHeader": "Kripto",
+        "kriptoContent": "In the realm of digital finance, the term \"krypto\" resonates with an aura of innovation and security. Krypto currencies like Bitcoin and Ethereum have revolutionized how we perceive money and transactions.",
+        "linksHeader": "LINKS",
+        "howItWorks": "How it works",
+        "cryptos": "Cryptos",
+        "features": "Features",
+        "testimonial": "Testimonial",
+        "blogs": "Blogs",
+        "legalHeader": "LEGAL",
+        "termsOfUse": "Terms of use",
+        "termsAndConditions": "Terms and conditions",
+        "privacyPolicy": "Privacy policy",
+        "cookiePolicy": "Cookie policy",
+        "newsletterHeader": "NEWSLETTER",
+        "newsletterText": "Over 25000 people have subscribed",
+        "newsletterInputPlaceholder": "Enter your email",
+        "subscribeButton": "SUBSCRIBE",
+        "newsletterDisclaimer": "We don't sell your email",
+        "privacyTerms": "Privacy & Terms",
+        "contactUs": "Contact Us",
+        "copyright": "Copyright @ 2022 xpence",
+        "footerYoutube": "Youtube",
+        "footerLinkedin": "Linkedin",
+        "footerFacebook": "Facebook",
+        "footerBitcoin": "Bitcoin"
+      },
+      "posts": {
+        "How to trade Bitcoin": "How to trade Bitcoin",
+        "Gain the best exchange": "Gain the best exchange",
+        "Reduce your loosing": "Reduce your losses",
+        "Win 50-50 trading strategy": "Win 50-50 trading strategy"
+      },
+      "stepstotrade": {
+        "title": "Steps to Trade",
+        "step1": "Create an account",
+        "step2": "Download platform",
+        "step3": "Select a cryptocurrency",
+        "step4": "Start trading"
+      },
+      "section6": {
+        "title": "30 Million Users Worldwide",
+        "subtitle": "Cryptocurrency investments are subject to market risks"
+      }
+    
+    
+  }
+  

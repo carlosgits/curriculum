@@ -16,7 +16,7 @@ const Cards = ({ width }) => {
                     <p class="card-text">
                         As the pioneer, Bitcoin securely transfers value globally. With a capped supply of 21M coins, it reshapes finance.</p>
                     <div className="btn-container">
-                    <CriptoPrice criptoSymbol="BTC"/> <a href="#" class="btn  btn-cont">TRADE NOW</a>
+                    <CriptoPrice type="bitcoin"/> <a href="#" class="btn  btn-cont">TRADE NOW</a>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@ const Cards = ({ width }) => {
                     <h5 class="card-title">Litecoin</h5>
                     <p class="card-text">Known as digital silver, Litecoin offers swift transactions. With a total of 84M coins, it's practical for daily use.</p>
                     <div className="btn-container">
-                    <CriptoPrice criptoSymbol="LTC"/>   <a href="#" class="btn btn-cont text-right">TRADE NOW</a>
+                    <CriptoPrice type="litecoin"/>   <a href="#" class="btn btn-cont text-right">TRADE NOW</a>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const Cards = ({ width }) => {
                     <h5 class="card-title">Ethereum</h5>
                     <p class="card-text">Beyond cryptocurrency, Ethereum empowers smart contracts and dApps. Ether drives innovation across diverse industries.</p>
                     <div className="btn-container">
-                    <CriptoPrice criptoSymbol="ETH"/> <a href="#" class="btn btn-cont">TRADE NOW</a>
+                    <CriptoPrice type="ethereum"/> <a href="#" class="btn btn-cont">TRADE NOW</a>
                     </div>
                 </div>
             </div>

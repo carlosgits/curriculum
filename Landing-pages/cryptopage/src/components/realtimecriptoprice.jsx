@@ -1,42 +1,43 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import "../styles/realtimeCriptoPrice.css"
-import axios from "axios";
-import { apikeyBinance } from "./keys";
+
+
 
 
 // require cripto symbol example BTC LTC ETH
-const CriptoPrice = ({criptoSymbol}) => {
 
-    //Put here your API key
-    const apiKey="1549dbcc-75a6-4b7e-8e23-01a264137797"
-
-    const [criptoPrice, setCripto] = useState(0)
+const CriptoPrice = ({ type="bitcoin" }) => {
+    const [lastPrice, setLastPrice] = useState(null);
 
     useEffect(() => {
-        // Función para obtener los datos de la API usando Axios.
-        function fetchCripto () {
-          
-            fetch(("https://api.coincap.io/v2/assets/bitcoin", {
-                headers: { "Accept-Encoding": "gzip","Authorization": "Bearer 1549dbcc-75a6-4b7e-8e23-01a264137797"}
-            })).then((response) => response.json()).then((data) => { console.log(data[0]) }).catch((error) => { console.log(error) })
+      const fetchData = async () => {
+        try {
+          const response = await fetch(`https://api.coingecko.com/api/v3/coins/${type}/market_chart?vs_currency=usd&days=1`);
+          const data = await response.json();
+          const lastPriceData = data.prices[data.prices.length - 1];
+          setLastPrice(lastPriceData[1]);
+        } catch (error) {
+          console.error("Hubo un error al obtener los datos:", error);
         }
-    
-        fetchCripto(); // Llamar a la función para obtener los datos cuando el componente se monta.
-      }, []);
-
-
-    // cripto value with regex to add commas after 3 digits
-    const value = ` $ ${Math.round(criptoPrice.rate)}`
-
+      };
+  
+      fetchData();
+  
+      // Ejecutar la función fetchData cada 24 horas
+      const intervalId = setInterval(fetchData, 24 * 60 * 60 * 1000);
+  
+      // Limpiar el intervalo cuando el componente se desmonte
+      return () => clearInterval(intervalId);
+    }, [type]);
+  
     return (
+      <div>
+       <p className="cripto-price">$ {Math.round(lastPrice)}</p>
+      </div>
+    );
+  };
 
-        <div>
-           
-            <p className="cripto-price">{value }</p>
-        </div>
-    )
 
-}
 
 export default CriptoPrice

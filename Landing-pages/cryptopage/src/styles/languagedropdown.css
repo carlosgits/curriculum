@@ -1,0 +1,47 @@
+
+
+.flag-container {
+  margin-right: 0px;
+  margin-top: 5px;
+    margin-left: 5px;
+}
+
+.flag {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.dropdown-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 34px;
+  background-color: none;
+  border-radius: 25px;
+  border-color: rgba(233, 66, 58, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.dropdown {
+
+  width: 61px;
+  border: none;
+  background-color: none;
+
+}
+
+
+select {
+  background-color: transparent;
+  color: white;
+}
+
+
+select:focus {
+  outline: none;
+  border-color: none;
+
+}

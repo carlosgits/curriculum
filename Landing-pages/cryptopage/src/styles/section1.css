@@ -10,10 +10,16 @@
     font-weight: 700;
     
   }
+
+  .section1-container{
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
   
   .section-1{
-    width: 730px;
-    height: 542px;
+    width:1440px;
+    height: 802px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -46,11 +52,12 @@
   }
   
   .button-s-1{
+    display: flex;
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     font-size: 16px;
     text-decoration: none;
-    width: 176px;
+ 
     height: 55px;
     border: 2px solid #cf2929;
     padding: 10px ;

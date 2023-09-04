@@ -1,8 +1,10 @@
 
 
 .section2{
-    width: 100%;
+    width: 1400px;
     height:1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .title-s2{
     font-family: 'Rubik', sans-serif;

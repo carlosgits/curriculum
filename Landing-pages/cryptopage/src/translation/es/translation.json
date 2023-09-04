@@ -1,0 +1,118 @@
+{
+  
+    "navBar": {
+      "title": "Krypto",
+      "howItWorks": "CÓMO FUNCIONA",
+      "pricing": "CRIPTOMONEDAS",
+      "contact": "TESTIMONIO",
+      "login": "FUNCIONES",
+      "signUp": "UNIVERSIDAD"
+    },
+  
+  
+    "section1": {
+      "title": "Próxima Generación del Trading de Criptomonedas",
+      "subtitle": "El Mercado de Criptomonedas Comienza en",
+      "downloadApp": "DESCARGAR APP",
+      "tradeCrypto": "OPERAR CRIPTO",
+      "accept": "ACEPTAMOS"
+    },
+    "section2": {
+      "title": "Cómo Operar con Krypto",
+      "subtitle": "Siempre realiza tu propia investigación antes de tomar decisiones de inversión."
+    },
+    "section3": {
+      "title": "Criptomonedas Disponibles",
+      "subtitle": "Las inversiones en criptomonedas están sujetas a riesgos de mercado."
+    },
+    "section4": {
+      "title": "Funciones Atractivas",
+      "subtitle": "Las inversiones en criptomonedas están sujetas a riesgos de mercado",
+      "features": [
+        {
+          "title": "Concurso de Trading Semanal",
+          "content": "Sumérgete en el mundo del trading de criptomonedas con nuestro emocionante Concurso de Trading Semanal. Ya seas un profesional experimentado en cripto o estés dando tus primeros pasos en el mundo de los activos digitales."
+        },
+        {
+          "title": "Menos Comisión en Operaciones",
+          "content": "Di adiós a las altas tarifas y da la bienvenida a una experiencia de trading más rentable con nuestra nueva iniciativa 'Menos Comisión en Operaciones'."
+        },
+        {
+          "title": "Plataforma de Trading Segura",
+          "content": "Bienvenido a nuestra Plataforma de Trading Segura, donde tu tranquilidad es nuestra máxima prioridad. Entendemos que la seguridad es fundamental."
+        },
+        {
+          "title": "Proceso de Retiro Instantáneo",
+          "content": "Te presentamos nuestro Proceso de Retiro Instantáneo, tu clave para un acceso rápido a tus fondos. Entendemos que el acceso oportuno a tus ganancias es esencial."
+        },
+        {
+          "title": "Comisión Mensual",
+          "content": "Hemos introducido nuestro sistema de Comisión Mensual, directo y transparente. Creemos en mantener las cosas simples."
+        },
+        {
+          "title": "Equipo de Soporte 24/7",
+          "content": "Entendemos que las preguntas pueden surgir en cualquier momento, por eso nuestro dedicado equipo de soporte está disponible las 24 horas para responder a tus consultas."
+        }
+      ]
+    },
+    "section5": {
+      "title": "¡La plataforma de trading de criptomonedas más avanzada jamás vista!"
+    },
+    "section6": {
+      "title": "30 millones de usuarios en todo el mundo",
+      "subtitle": "Las inversiones en criptomonedas están sujetas a riesgos de mercado"
+    },
+    "section7": {
+      "title": "30 Millones de Usuarios en Todo el Mundo",
+      "subtitle": "Las inversiones en criptomonedas están sujetas a riesgos de mercado",
+      "enrollButton": "Inscribirse en la Universidad de Cripto"
+    },
+    
+      "footer": {
+        "kriptoHeader": "Kripto",
+        "kriptoContent": "En el mundo de las finanzas digitales, el término \"krypto\" resuena con una aura de innovación y seguridad. Las criptomonedas como Bitcoin y Ethereum han revolucionado la forma en que percibimos el dinero y las transacciones.",
+        "linksHeader": "ENLACES",
+        "howItWorks": "Cómo funciona",
+        "cryptos": "Criptomonedas",
+        "features": "Características",
+        "testimonial": "Testimonios",
+        "blogs": "Artículos",
+        "legalHeader": "LEGAL",
+        "termsOfUse": "Términos de uso",
+        "termsAndConditions": "Términos y condiciones",
+        "privacyPolicy": "Política de privacidad",
+        "cookiePolicy": "Política de cookies",
+        "newsletterHeader": "BOLETÍN",
+        "newsletterText": "Más de 25000 personas se han suscrito",
+        "newsletterInputPlaceholder": "Ingresa tu correo electrónico",
+        "subscribeButton": "SUSCRIBIRSE",
+        "newsletterDisclaimer": "No vendemos tu correo electrónico",
+        "privacyTerms": "Privacidad y Términos",
+        "contactUs": "Contáctanos",
+        "copyright": "Derechos de autor @ 2022 xpence",
+        "footerYoutube": "Youtube",
+        "footerLinkedin": "Linkedin",
+        "footerFacebook": "Facebook",
+        "footerBitcoin": "Bitcoin"
+      },
+      "posts": {
+        "How to trade Bitcoin": "Cómo operar con Bitcoin",
+        "Gain the best exchange": "Obtén la mejor plataforma de intercambio",
+        "Reduce your loosing": "Reduce tus pérdidas",
+        "Win 50-50 trading strategy": "Estrategia de trading 50-50"
+      },
+      "stepstotrade": {
+        "title": "Pasos para Operar",
+        "step1": "Crea una cuenta",
+        "step2": "Descarga la plataforma",
+        "step3": "Selecciona una criptomoneda",
+        "step4": "Comienza a operar"
+      },
+      "section6": {
+        "title": "30 Millones de Usuarios en Todo el Mundo",
+        "subtitle": "Las inversiones en criptomonedas están sujetas a riesgos de mercado"
+      }
+    
+    
+  }
+  
