@@ -2,7 +2,7 @@
 
 Welcome to this project
 
-This page showcases relevant information about our crypto information application powered by the CoinGecko API and designed with the Figma design by Mohammad Ali.
+This page showcases relevant information about my crypto landing page  powered by the CoinGecko API and designed with the Figma design by Mohammad Ali.
 
 
 ## Screenshots
