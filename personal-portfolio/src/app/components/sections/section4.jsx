@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Section4 = () => {
   return (
-    <div className="w-[355px] h-[auto] flex flex-col space-y-5 mx-auto  bg-gray-700/50 font-Grotesk font-bold relative">
+    <footer id="contact-section" className="w-[375px] h-[auto] flex flex-col space-y-5 mx-auto  bg-gray-700/50 font-Grotesk font-bold relative mb-10 |tablet->| md:w-[800px]  md:mb-0">
       {/*Utility image */}
       <Image
         src="/utilitiy-images/bigoval2.svg"
@@ -44,11 +44,12 @@ const Section4 = () => {
         />
       </form>
 
-      <div className="w-[250px] h-[72px]  mx-auto flex flex-col justify-around my-[5px]">
-        <div className="font-Grotesk font-[16px] text-gray-400  mx-auto my-[10px]">
+      <div className="w-[250px] h-[72px]  mx-auto flex flex-col justify-around my-[5px] |tablet->| md:w-[710px] md:h-[40px] md:flex-row md:justify-between md:mx-[auto]">
+
+        <div className="font-Grotesk font-[16px] text-gray-400  mx-auto md:mx-0">
           CARLOS FAMILIA
         </div>
-        <div className="flex flex-row justify-around mb-[20px]">
+        <div className="flex flex-row justify-around mb-[20px] md:space-x-2">
           <Image
             src="/social-media-icons/github-icon.svg"
             width={24}
@@ -66,7 +67,7 @@ const Section4 = () => {
           />
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

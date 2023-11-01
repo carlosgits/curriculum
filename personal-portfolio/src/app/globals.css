@@ -22,7 +22,8 @@
 }
 
 body {
-  overflow-x: hidden;
+
+
   font-family: 'Space Grotesk';
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
