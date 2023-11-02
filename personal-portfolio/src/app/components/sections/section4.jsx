@@ -2,7 +2,9 @@ import Image from "next/image";
 
 const Section4 = () => {
   return (
-    <footer id="contact-section" className="w-[375px] h-[auto] flex flex-col space-y-5 mx-auto  bg-gray-700/50 font-Grotesk font-bold relative mb-10 |tablet->| md:w-[800px]  md:mb-0">
+    <footer id="contact-section" className="relative mx-auto w-[390px] mt-10 md:w-[815px] md:h-[auto]" >
+
+      <div className="absolute w-[390px] h-[auto] flex flex-col space-y-5 mx-auto  bg-gray-700/50 font-Grotesk font-bold  mb-10 |tablet->| md:w-[815px]  md:mb-0 bottom-[-600px] md:top-[-20px] md:h-[auto]">
       {/*Utility image */}
       <Image
         src="/utilitiy-images/bigoval2.svg"
@@ -12,8 +14,8 @@ const Section4 = () => {
       />
 
       <div className="contact-container w-[340px] h-[138px] mx-auto">
-        <div className="text-[40px] text-center">Contact</div>
-        <div className="text-[16px] text-center">
+        <div className="text-[24px] md:text-[40px] text-center">Contact</div>
+        <div className="text-[16px] text-center text-slate-500">
           I would love to hear about your project and how I could help. Please
           fill in the form, and I’ll get back to you as soon as possible.
         </div>
@@ -66,6 +68,7 @@ const Section4 = () => {
             height={24}
           />
         </div>
+      </div>
       </div>
     </footer>
   );
