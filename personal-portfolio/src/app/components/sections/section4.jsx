@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const Section4 = () => {
   return (
-    <footer id="contact-section" className="relative mx-auto w-[390px] mt-10 md:w-[815px] md:h-[auto]" >
+    <footer id="contact-section" className="relative mx-auto w-[390px] mt-10 md:w-[815px] md:h-[auto] |PC->| lg:h-[554px] lg:w-[1450px]" >
 
-      <div className="absolute w-[390px] h-[auto] flex flex-col space-y-5 mx-auto  bg-gray-700/50 font-Grotesk font-bold  mb-10 |tablet->| md:w-[815px]  md:mb-0 bottom-[-600px] md:top-[-20px] md:h-[auto]">
+      <div className="absolute w-[390px] h-[auto] flex flex-col space-y-5 mx-auto  bg-gray-700/50 font-Grotesk font-bold  mb-10 |tablet->| md:w-[815px]  md:mb-0 bottom-[-600px] md:top-[-20px] md:h-[auto] |PC->| lg:h-[554px] lg:w-[1450px] lg:top-[0px]">
       {/*Utility image */}
       <Image
         src="/utilitiy-images/bigoval2.svg"

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Section3 = () => {
   return (
-    <div className="w-[375px] h-[auto] flex flex-col space-y-5 mx-auto font-Grotesk font-bold mb-10  |tablet->| md:w-[700px]">
+    <div className="w-[375px] h-[auto] flex flex-col space-y-5 mx-auto font-Grotesk font-bold mb-10  |tablet->| md:w-[700px] lg:w-[1400px]">
       <div className="flex flex-row w-[343px] h-[40px] justify-between items-end ">
         <div >
           <span className="my-5 text-[35px] w-[55px]">PROJECTS</span>
@@ -13,7 +13,7 @@ const Section3 = () => {
           </span>
      
       </div>
-      <div className="project-container grid grid-cols-1 | tablet->| md:grid md:grid-cols-2 md:w-[725px] md:h-[auto] md:gap-5">
+      <div className="project-container grid grid-cols-1 | tablet->| md:grid md:grid-cols-2 md:w-[725px] md:h-[auto] md:gap-5 |PC->| lg:w-[1400px] lg:grid-cols-3">
         {/* project 1 */}
         <div className="flex flex-col my-5 md:w-[343px]">
           <Image
@@ -175,7 +175,7 @@ const Section3 = () => {
         </div>
         {/* end project 1 */}
 
-        
+
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const NavSection = () => {
   return (
-    <nav className="w-[250px] h-[72px]  mx-auto flex flex-col justify-around absolute left-0 right-0 |tablet->| md:w-[710px] md:h-[40px] md:flex-row md:justify-between md:z-50 md:top-4">
+    <nav className="Nav w-[250px] h-[72px]  mx-auto flex flex-col justify-around absolute left-0 right-0 |tablet->| md:w-[710px] md:h-[40px] md:flex-row md:justify-between md:z-50 md:top-4 |PC->| lg:w-[1440px] ">
       <div className="font-Grotesk font-[16px] text-gray-400  mx-auto |tablet->| md:mx-0    md:text-white">
         CARLOS FAMILIA
       </div>

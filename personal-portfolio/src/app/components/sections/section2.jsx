@@ -7,7 +7,7 @@ const Section2 = () => {
 
 
       {/*YEARS  OF EXPERIENCE SECTION */}
-      <div className="flex flex-col h-[auto] w-15 space-y-8 mb-[20px] mt-8 ml-4 relative md:flex-row w-[300px] |tablet->| md:space-y-0 md:justify-between md:w-[700px] md:mb-[20px]">
+      <div className="flex flex-col h-[auto] w-15 space-y-8 mb-[20px] mt-8 ml-4 relative md:flex-row w-[300px] |tablet->| md:space-y-0 md:justify-between md:w-[700px] md:mb-[20px] lg:w-[700px]">
         {/*    */}
         {/*  Utility image  */}
        
