@@ -1,179 +1,63 @@
 import Image from "next/image";
+import Project from "../Projects";
 
 const Section3 = () => {
   return (
-    <div className="w-[375px] h-[auto] flex flex-col space-y-5 mx-auto font-Grotesk font-bold mb-10  |tablet->| md:w-[700px] lg:w-[1400px]">
-      <div className="flex flex-row w-[343px] h-[40px] justify-between items-end ">
-        <div >
+    <div className="w-[375px] h-[auto] flex flex-col space-y-5 mx-auto font-Grotesk font-bold mb-10 p-5 |tablet->| md:w-[730px] lg:w-[1400px]">
+
+      <div className="flex flex-row w-[343px] h-[40px] justify-between items-end lg:ml-[100px]">
+        <div  className="">
           <span className="my-5 text-[35px] w-[55px]">PROJECTS</span>
             </div>
           
-          <span className="underline underline-offset-8 decoration-green-400 mb-0 text-[16px] h-[40px]">
+          <span className="underline underline-offset-8 decoration-portfolio-green mb-0 text-[16px] h-[40px] hover:text-portfolio-green">
              <a href="#contact-section"  >CONTACT ME</a>
           </span>
      
       </div>
-      <div className="project-container grid grid-cols-1 | tablet->| md:grid md:grid-cols-2 md:w-[725px] md:h-[auto] md:gap-5 |PC->| lg:w-[1400px] lg:grid-cols-3">
-        {/* project 1 */}
-        <div className="flex flex-col my-5 md:w-[343px]">
-          <Image
-            src="/project-pics/image-example.png"
-            width={343}
-            height={253}
-            className=""
-          />
-          <div className="mt-2">
-            <span>PROJECT NAME</span>
-          </div>
-
-          <div className="code-languages flex flex-row space-x-5">
-            <span>HTML</span>
-            <span>CSS</span>
-          </div>
-          <div className="view-options flex flex-row space-x-5">
-            <span className="underline underline-offset-8 decoration-green-400"><a href="#"  >VIEW PROJECT</a></span>
-            <span className="underline underline-offset-8 decoration-green-400"> <a href="#"  >VIEW CODE</a></span>
-          </div>
-        </div>
-        {/* end project 1 */}
+      <div className="project-container grid grid-cols-1 | tablet->| md:grid md:grid-cols-2 md:w-[725px] md:h-[auto] md:gap-5 |PC->| lg:w-[1200px] lg:grid-cols-3 lg:mx-auto">
    
-  {/* project 1 */}
-  <div className="flex flex-col my-5 md:w-[343px]">
-          <Image
-            src="/project-pics/image-example.png"
-            width={343}
-            height={253}
-            className=""
-          />
-          <div className="mt-2">
-            <span>PROJECT NAME</span>
-          </div>
+      <Project
+  imageSrc="/project-images/criptopage-img.png"
+  projectName="Kripto Landing Page"
+  projectLink="https://github.com/carlosgits/curriculum/tree/main/Landing-pages/cryptopage#:~:text=Landing-,%2D,-pages/cryptopage"
+  codeLink="https://github.com/carlosgits/curriculum/tree/main/Landing-pages/cryptopage#:~:text=Landing-,%2D,-pages/cryptopage"
+  lang1="React"
+  lang2="Redux"
+  lang3="Axios"
+  lang4="Bootstrap"
 
-          <div className="code-languages flex flex-row space-x-5">
-            <span>HTML</span>
-            <span>CSS</span>
-          </div>
-          <div className="view-options flex flex-row space-x-5">
-            <span className="underline underline-offset-8 decoration-green-400"><a href="#"  >VIEW PROJECT</a></span>
-            <span className="underline underline-offset-8 decoration-green-400"> <a href="#"  >VIEW CODE</a></span>
-          </div>
-        </div>
-        {/* end project 1 */}
+/>
+   
+<Project
+  imageSrc="/project-images/searchapp.png"
+  projectName="Search App"
+  projectLink="https://github.com/carlosgits/curriculum/tree/main/useOfAPIs/searchapp"
+  codeLink="https://github.com/carlosgits/curriculum/tree/main/useOfAPIs/searchapp"
+  lang1="React"
+  lang2="Redux"
+  lang3="Bootstrap"
+/>
 
-        {/* project 1 */}
-  <div className="flex flex-col my-5 md:w-[343px]">
-          <Image
-            src="/project-pics/image-example.png"
-            width={343}
-            height={253}
-            className=""
-          />
-          <div className="mt-2">
-            <span>PROJECT NAME</span>
-          </div>
+<Project
+  imageSrc="/project-images/honorpage.png"
+  projectName="Tribute Page"
+  projectLink="https://github.com/carlosgits/curriculum/tree/main/tribute-pages/vicente-garcia-tribute-page"
+  codeLink="https://github.com/carlosgits/curriculum/tree/main/tribute-pages/vicente-garcia-tribute-page"
+  lang1="Html"
+  lang2="Css"
+/>
 
-          <div className="code-languages flex flex-row space-x-5">
-            <span>HTML</span>
-            <span>CSS</span>
-          </div>
-          <div className="view-options flex flex-row space-x-5">
-            <span className="underline underline-offset-8 decoration-green-400"><a href="#"  >VIEW PROJECT</a></span>
-            <span className="underline underline-offset-8 decoration-green-400"> <a href="#"  >VIEW CODE</a></span>
-          </div>
-        </div>
-        {/* end project 1 */}
+<Project
+  imageSrc="/project-images/registrationform.png"
+  projectName="Registration Form"
+  projectLink="https://github.com/carlosgits/curriculum/tree/main/Forms/registration-forms"
+  codeLink="https://github.com/carlosgits/curriculum/tree/main/Forms/registration-forms"
+  lang1="Html"
+  lang2="Css"
+/>
 
-        {/* project 1 */}
-  <div className="flex flex-col my-5 md:w-[343px]">
-          <Image
-            src="/project-pics/image-example.png"
-            width={343}
-            height={253}
-            className=""
-          />
-          <div className="mt-2">
-            <span>PROJECT NAME</span>
-          </div>
 
-          <div className="code-languages flex flex-row space-x-5">
-            <span>HTML</span>
-            <span>CSS</span>
-          </div>
-          <div className="view-options flex flex-row space-x-5">
-            <span className="underline underline-offset-8 decoration-green-400"><a href="#"  >VIEW PROJECT</a></span>
-            <span className="underline underline-offset-8 decoration-green-400"> <a href="#"  >VIEW CODE</a></span>
-          </div>
-        </div>
-        {/* end project 1 */}
-
-        {/* project 1 */}
-  <div className="flex flex-col my-5 md:w-[343px]">
-          <Image
-            src="/project-pics/image-example.png"
-            width={343}
-            height={253}
-            className=""
-          />
-          <div className="mt-2">
-            <span>PROJECT NAME</span>
-          </div>
-
-          <div className="code-languages flex flex-row space-x-5">
-            <span>HTML</span>
-            <span>CSS</span>
-          </div>
-          <div className="view-options flex flex-row space-x-5">
-            <span className="underline underline-offset-8 decoration-green-400"><a href="#"  >VIEW PROJECT</a></span>
-            <span className="underline underline-offset-8 decoration-green-400"> <a href="#"  >VIEW CODE</a></span>
-          </div>
-        </div>
-        {/* end project 1 */}
-        
-         {/* project 1 */}
-  <div className="flex flex-col my-5 md:w-[343px]">
-          <Image
-            src="/project-pics/image-example.png"
-            width={343}
-            height={253}
-            className=""
-          />
-          <div className="mt-2">
-            <span>PROJECT NAME</span>
-          </div>
-
-          <div className="code-languages flex flex-row space-x-5">
-            <span>HTML</span>
-            <span>CSS</span>
-          </div>
-          <div className="view-options flex flex-row space-x-5">
-            <span className="underline underline-offset-8 decoration-green-400"><a href="#"  >VIEW PROJECT</a></span>
-            <span className="underline underline-offset-8 decoration-green-400"> <a href="#"  >VIEW CODE</a></span>
-          </div>
-        </div>
-        {/* end project 1 */}
-
-         {/* project 1 */}
-  <div className="flex flex-col my-5 md:w-[343px]">
-          <Image
-            src="/project-pics/image-example.png"
-            width={343}
-            height={253}
-            className=""
-          />
-          <div className="mt-2">
-            <span>PROJECT NAME</span>
-          </div>
-
-          <div className="code-languages flex flex-row space-x-5">
-            <span>HTML</span>
-            <span>CSS</span>
-          </div>
-          <div className="view-options flex flex-row space-x-5">
-            <span className="underline underline-offset-8 decoration-green-400"><a href="#"  >VIEW PROJECT</a></span>
-            <span className="underline underline-offset-8 decoration-green-400"> <a href="#"  >VIEW CODE</a></span>
-          </div>
-        </div>
-        {/* end project 1 */}
 
 
       </div>

@@ -1,0 +1,44 @@
+/* styles.css */
+
+
+/* styles.css */
+@keyframes miAnimacion {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      color: #fff;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+    }
+  
+  }
+
+  @keyframes revertir {
+    to {
+        opacity: 1;
+        text-shadow: none;
+    }
+}
+  
+  h1 {
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    animation: miAnimacion 5s ease-in-out forwards, revertir 1s 4s forwards;
+  }
+  
+  h1 span {
+    transition: 0.5s linear;
+  }
+  
+  h1:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  }
+  
+
+  h1:focus span {
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+  }

@@ -7,15 +7,16 @@ const Section2 = () => {
 
 
       {/*YEARS  OF EXPERIENCE SECTION */}
-      <div className="flex flex-col h-[auto] w-15 space-y-8 mb-[20px] mt-8 ml-4 relative md:flex-row w-[300px] |tablet->| md:space-y-0 md:justify-between md:w-[700px] md:mb-[20px] lg:w-[700px]">
+      <div className="flex flex-col h-[auto] w-15 space-y-8 mb-[20px] mt-8 ml-4 relative md:flex-row w-[300px] |tablet->| md:space-y-0 md:justify-between md:w-[700px] md:mb-[20px] md:right-[20px] |PC->|lg:w-[700px]">
         {/*    */}
-        {/*  Utility image  */}
+      
        
 
         <div className="flex flex-row">
           <Image
             src="/programming-icons/html-icon.svg"
             className="md:w-[50px] md:h-[50px] top-0"
+            alt="html-icon"
             width={35}
             height={35}
           />
@@ -33,6 +34,7 @@ const Section2 = () => {
           <Image
             src="/programming-icons/css-icon.svg"
             className="md:w-[50px] md:h-[50px] top-0"
+            alt="css-icon"
             width={35}
             height={35}
           />
@@ -50,6 +52,7 @@ const Section2 = () => {
           <Image
             src="/programming-icons/jsicon.svg"
             className="md:w-[50px] md:h-[50px]"
+            alt="js-icon"
             width={35}
             height={35}
           />
@@ -78,6 +81,7 @@ const Section2 = () => {
           <Image
             src="/programming-icons/react-icon.svg"
             className="mx-auto |tablet->| md:w-[50px] md:h-[50px]"
+            alt="react-icon"
             width={35}
             height={35}
           />
@@ -86,6 +90,7 @@ const Section2 = () => {
           <Image
             src="/programming-icons/redux-icon.svg"
             className="mx-auto |tablet->| md:w-[50px] md:h-[50px]"
+            alt="redux-icon"
             width={35}
             height={35}
           />
@@ -94,6 +99,7 @@ const Section2 = () => {
           <Image
             src="/programming-icons/next-icon.svg"
             className="mx-auto |tablet->| md:w-[50px] md:h-[50px]"
+            alt="next-icon"
             width={35}
             height={35}
           />
@@ -102,6 +108,7 @@ const Section2 = () => {
           <Image
             src="/programming-icons/nodejs-icon.svg"
             className="mx-auto |tablet->| md:w-[50px] md:h-[50px]"
+            alt="nodejs-icon"
             width={35}
             height={35}
           />
@@ -118,12 +125,14 @@ const Section2 = () => {
           <Image
             src="/programming-icons/bootstrap-icon.svg"
             className="mx-auto |tablet->| md:w-[50px] md:h-[50px]"
+            alt="bootstrap-icon"
             width={35}
             height={35}
           />
         </div>
         <div className="text-center">
           <Image
+          alt="prisma-icon"
             src="/programming-icons/prisma-icon.svg"
             className="mx-auto |tablet->| md:w-[50px] md:h-[50px]"
             width={35}
@@ -132,6 +141,7 @@ const Section2 = () => {
         </div>
         <div className="text-center">
           <Image
+          alt="mongo-icon"
             src="/programming-icons/mongo-icon.svg"
             className="mx-auto |tablet->| md:w-[50px] md:h-[50px]"
             width={20}
@@ -140,6 +150,7 @@ const Section2 = () => {
         </div>
         <div className="text-center">
           <Image
+          alt="tailwind-icon"
             src="/programming-icons/tailwind-icon.svg"
             className="mx-auto relative top-[15px] |tablet->| md:w-[50px] md:h-[50px]"
             width={35}
