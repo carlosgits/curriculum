@@ -1,0 +1,12 @@
+.blured-light {
+    width: 200px;
+    box-shadow: none;
+    height: 200px;
+    background-color: #ffffff9e;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px; 
+    left: 50px; 
+    filter: blur(130px);
+    
+  }

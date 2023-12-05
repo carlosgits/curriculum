@@ -1,0 +1,1 @@
+className="w-[360px] h-[640px] |tablet| md:w-[748px] md:h-[1024px] |pc|  lg:w-[1366px] lg:h-[768px] "
