@@ -4,7 +4,7 @@ import Image from "next/image";
 const Project = ({ imageSrc, projectName, projectLink, codeLink,lang1,lang2,lang3,lang4 }) => {
   return (
     <div className="flex flex-col my-5 md:w-[343px] bottom-0 align-middle justify-end">
-      <Image src={imageSrc} alt="project-pic"  width={343} height={253} className="" />
+      <Image src={imageSrc} alt="project-pic"  width={343} height={253} className="object-fill " />
      
       <div className="mt-2">
         <span>{projectName}</span>

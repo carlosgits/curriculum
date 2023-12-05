@@ -4,12 +4,15 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ], plugins: [
+    require("flowbite/plugin")
   ],
   theme: {
     colors: {
       "portfolio-green": "#4EE1A0",
       "portfolio-gray": "#d9d9d9",
       "portfolio-darkgray": "#242424",
+      "portfolio-tomato": "#FF6F5B",
       
     },
 
