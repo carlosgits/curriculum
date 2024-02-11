@@ -16,6 +16,18 @@ const Section3 = () => {
      
       </div>
       <div className="project-container grid grid-cols-1 | tablet->| md:grid md:grid-cols-2 md:w-[725px] md:h-[auto] md:gap-5 |PC->| lg:w-[1200px] lg:grid-cols-3 lg:mx-auto">
+
+      <Project
+  imageSrc="/project-images/password-generator.png"
+  projectName="Password Generator"
+  projectLink="https://password-generator-flame-eight.vercel.app/"
+  codeLink="https://github.com/carlosgits/curriculum/tree/5e4583e2a269326889116d3d8877063173065799/password-generator"
+  lang1="Next Js"
+  lang2="Tailwind"
+  lang3="Typescript"
+
+
+/>
    
       <Project
   imageSrc="/project-images/criptopage-img.png"

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import TextComponent from "../textComponent";
+import SplineDesign from "../spline";
 
 const Section1 = () => {
   return (
@@ -46,6 +47,7 @@ const Section1 = () => {
           </span>
           
         </div>
+        
         <div className="w-[400px]       font-Grotesk-medium font-medium text-normal text-portfolio-gray p-5 |tablet->| text-start md:w-[514px]  |PC->| lg:w-[560px]  ">
           Based in the DR, I’m a full-stack developer passionate about building
           accessible web apps that users love.{" "}
@@ -57,7 +59,9 @@ const Section1 = () => {
           
         </div>
 
-       
+<SplineDesign />
+
+    
 
       </div>
     
