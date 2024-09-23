@@ -4,7 +4,6 @@ import React from 'react'
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar'
 import 'react-circular-progressbar/dist/styles.css'
 import { Calendar, Clock, Book, Award, TrendingUp, MessageCircle, Target, Zap } from 'lucide-react'
-import Navbar from '../components/NavBar'
 
 const BarProgress = ({ title, score, color }) => (
   <div className="bg-gray-800 rounded-lg shadow-lg p-4">
