@@ -80,6 +80,7 @@ export default function Component() {
     return "A1 Beginner"
   }
 
+
   return (
     <div className="min-h-screen bg-gray-900 p-8">
 

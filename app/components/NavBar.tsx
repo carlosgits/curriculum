@@ -22,11 +22,7 @@ export default function Navbar() {
   const { data: session, status } = useSession()
   const isLoggedIn = status === 'authenticated'
 
-  useEffect(() => {
-    if (status === "unauthenticated") {
-      router.push("/"); // Redirigir al inicio si no está autenticado
-    }
-  }, [status]);
+
  
 
  
